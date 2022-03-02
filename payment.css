@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(12, 201, 122);
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(29, 122, 158);
+    color: black;
+}
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+main{
+    font-family: 'Fugaz One', cursive;
+}
+body{
+    background-color: gray;
+}
+header{
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Fugaz One', cursive;
+    color: aliceblue;
+    padding: 80px;
+    text-align: center;
+    background-image: url("backgroundimage.jpg");
+    background-image: url("header_pic.jpeg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: right;
+}
+nav {
+    font-family: 'Fugaz One', cursive;
+    background-color:orange;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+h1{
+   text-align: center;
+}
+#main_heading{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.skills,.about_me,.hobbies {
+    display: flex;
+    width: 700px;
+    border-radius: 50px 50px 50px 50px;
+}
+.q{
+    width: 700px;
+    padding:48px;
+    border:10px solid black;
+    margin-left: 80px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px 50px 50px 50px ;
+}
+.p{
+    width: 700px;
+    padding:50px;
+    border:10px solid black;
+    margin-left: 15px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px 50px 50px 50px ;
+}
+
+aside {
+    width: 25%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    border:10px solid black;
+    font-family:cursive;
+    background-color:rgb(182, 238, 255);
+    border-radius: 50px 50px 50px 50px ;
+  }
+  .r{
+    width: 700px;
+    padding:70px;
+    border:10px solid black;
+    margin-left: 40px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px 50px 50px 50px ;
+}
+  
+
+footer{
+    text-align: center;
+    color: white;
+}
+.nav a:hover{
+    color: black;
+}
